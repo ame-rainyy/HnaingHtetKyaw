@@ -82,5 +82,27 @@ namespace S10274663K_PRG2Assignment
                 }
             }
         }
+        static void ListRestaurants(List<Restaurant> restaurants)
+        {
+            Console.WriteLine("All Restaurants and Menu Items");
+            Console.WriteLine("==============================");
+
+            foreach (Restaurant r in restaurants)
+            {
+                Console.WriteLine($"Restaurant: {r.RestaurantName} ({r.RestaurantId})");
+                foreach (Menu m in r.Menus)
+                {
+                    foreach (FoodItem f in m.FoodItems)
+                    {
+                        Console.WriteLine(
+                            $"  - {f.ItemName}: {f.ItemDesc} - ${f.ItemPrice:F2}"
+                        );
+                    }
+                }
+
+                Console.WriteLine();
+            }
+        }
     }
 }
+

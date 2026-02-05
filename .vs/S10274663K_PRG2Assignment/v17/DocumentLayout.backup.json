@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\",
+  "WorkspaceRootPath": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\kyle2\\downloads\\programming\\s10274663k_prg2assignment\\s10274663k_prg2assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\marcu\\desktop\\ngee ann poly\\semester 2\\prg 2\\prg_2_assignment\\github\\hnainghtetkyaw\\s10274663k_prg2assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|solutionrelative:s10274663k_prg2assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\kyle2\\downloads\\programming\\s10274663k_prg2assignment\\s10274663k_prg2assignment\\restaurants.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\marcu\\desktop\\ngee ann poly\\semester 2\\prg 2\\prg_2_assignment\\github\\hnainghtetkyaw\\s10274663k_prg2assignment\\restaurants.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|solutionrelative:s10274663k_prg2assignment\\restaurants.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\kyle2\\downloads\\programming\\s10274663k_prg2assignment\\s10274663k_prg2assignment\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\marcu\\desktop\\ngee ann poly\\semester 2\\prg 2\\prg_2_assignment\\github\\hnainghtetkyaw\\s10274663k_prg2assignment\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|solutionrelative:s10274663k_prg2assignment\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\kyle2\\downloads\\programming\\s10274663k_prg2assignment\\s10274663k_prg2assignment\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\marcu\\desktop\\ngee ann poly\\semester 2\\prg 2\\prg_2_assignment\\github\\hnainghtetkyaw\\s10274663k_prg2assignment\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|solutionrelative:s10274663k_prg2assignment\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\kyle2\\downloads\\programming\\s10274663k_prg2assignment\\s10274663k_prg2assignment\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\marcu\\desktop\\ngee ann poly\\semester 2\\prg 2\\prg_2_assignment\\github\\hnainghtetkyaw\\s10274663k_prg2assignment\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|solutionrelative:s10274663k_prg2assignment\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\kyle2\\downloads\\programming\\s10274663k_prg2assignment\\s10274663k_prg2assignment\\restuarant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\marcu\\desktop\\ngee ann poly\\semester 2\\prg 2\\prg_2_assignment\\github\\hnainghtetkyaw\\s10274663k_prg2assignment\\restuarant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|solutionrelative:s10274663k_prg2assignment\\restuarant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\kyle2\\downloads\\programming\\s10274663k_prg2assignment\\s10274663k_prg2assignment\\specialoffers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\marcu\\desktop\\ngee ann poly\\semester 2\\prg 2\\prg_2_assignment\\github\\hnainghtetkyaw\\s10274663k_prg2assignment\\specialoffers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|solutionrelative:s10274663k_prg2assignment\\specialoffers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\kyle2\\downloads\\programming\\s10274663k_prg2assignment\\s10274663k_prg2assignment\\orderedfooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\marcu\\desktop\\ngee ann poly\\semester 2\\prg 2\\prg_2_assignment\\github\\hnainghtetkyaw\\s10274663k_prg2assignment\\orderedfooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|solutionrelative:s10274663k_prg2assignment\\orderedfooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\kyle2\\downloads\\programming\\s10274663k_prg2assignment\\s10274663k_prg2assignment\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|c:\\users\\marcu\\desktop\\ngee ann poly\\semester 2\\prg 2\\prg_2_assignment\\github\\hnainghtetkyaw\\s10274663k_prg2assignment\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{704FEED0-BE11-4A00-93AD-EBF44E720736}|S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj|solutionrelative:s10274663k_prg2assignment\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,124 +46,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "restaurants.csv",
-              "DocumentMoniker": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\restaurants.csv",
-              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\restaurants.csv",
-              "ToolTip": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\restaurants.csv",
-              "RelativeToolTip": "S10274663K_PRG2Assignment\\restaurants.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-02-05T01:56:51.294Z",
+              "DocumentIndex": 6,
+              "Title": "SpecialOffers.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\SpecialOffers.cs",
+              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\SpecialOffers.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\SpecialOffers.cs",
+              "RelativeToolTip": "S10274663K_PRG2Assignment\\SpecialOffers.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T01:29:00.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Restuarant.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\Restuarant.cs",
+              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\Restuarant.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\Restuarant.cs",
+              "RelativeToolTip": "S10274663K_PRG2Assignment\\Restuarant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T01:28:33.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\FoodItem.cs",
+              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\FoodItem.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\FoodItem.cs",
+              "RelativeToolTip": "S10274663K_PRG2Assignment\\FoodItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T01:26:15.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\Order.cs",
+              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\Order.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\Order.cs",
+              "RelativeToolTip": "S10274663K_PRG2Assignment\\Order.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAA3wA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T11:41:10.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderedFoodItem.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\OrderedFoodItem.cs",
+              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\OrderedFoodItem.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\OrderedFoodItem.cs",
+              "RelativeToolTip": "S10274663K_PRG2Assignment\\OrderedFoodItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T11:27:12.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "customer.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\customer.cs",
+              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\customer.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\customer.cs",
+              "RelativeToolTip": "S10274663K_PRG2Assignment\\customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T10:13:56.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\Program.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\Program.cs",
+              "RelativeToolTip": "S10274663K_PRG2Assignment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T10:11:21.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\Menu.cs",
               "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\Menu.cs",
-              "ToolTip": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\Menu.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\Menu.cs",
               "RelativeToolTip": "S10274663K_PRG2Assignment\\Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T01:29:46.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T01:29:46.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SpecialOffers.cs",
-              "DocumentMoniker": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\SpecialOffers.cs",
-              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\SpecialOffers.cs",
-              "ToolTip": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\SpecialOffers.cs",
-              "RelativeToolTip": "S10274663K_PRG2Assignment\\SpecialOffers.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwCcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T01:29:00.7Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "restaurants.csv",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\restaurants.csv",
+              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\restaurants.csv",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\restaurants.csv",
+              "RelativeToolTip": "S10274663K_PRG2Assignment\\restaurants.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-02-05T01:56:51.294Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Restuarant.cs",
-              "DocumentMoniker": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\Restuarant.cs",
-              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\Restuarant.cs",
-              "ToolTip": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\Restuarant.cs",
-              "RelativeToolTip": "S10274663K_PRG2Assignment\\Restuarant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T01:28:33.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FoodItem.cs",
-              "DocumentMoniker": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\FoodItem.cs",
-              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\FoodItem.cs",
-              "ToolTip": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\FoodItem.cs",
-              "RelativeToolTip": "S10274663K_PRG2Assignment\\FoodItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T01:26:15.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\Order.cs",
-              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\Order.cs",
-              "ToolTip": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\Order.cs",
-              "RelativeToolTip": "S10274663K_PRG2Assignment\\Order.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAA3wA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:41:10.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderedFoodItem.cs",
-              "DocumentMoniker": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\OrderedFoodItem.cs",
-              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\OrderedFoodItem.cs",
-              "ToolTip": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\OrderedFoodItem.cs",
-              "RelativeToolTip": "S10274663K_PRG2Assignment\\OrderedFoodItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:27:12.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "customer.cs",
-              "DocumentMoniker": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\customer.cs",
-              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\customer.cs",
-              "ToolTip": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\customer.cs",
-              "RelativeToolTip": "S10274663K_PRG2Assignment\\customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T10:13:56.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\Program.cs",
-              "RelativeDocumentMoniker": "S10274663K_PRG2Assignment\\Program.cs",
-              "ToolTip": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\Program.cs",
-              "RelativeToolTip": "S10274663K_PRG2Assignment\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T10:11:21.696Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
