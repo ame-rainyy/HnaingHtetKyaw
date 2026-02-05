@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj": {}
+    "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj": {
+    "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj",
+        "projectUniqueName": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj",
         "projectName": "S10274663K_PRG2Assignment",
-        "projectPath": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj",
-        "packagesPath": "C:\\Users\\kyle2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kyle2\\Downloads\\PROGRAMMING\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment\\obj\\",
+        "projectPath": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\S10274663K_PRG2Assignment.csproj",
+        "packagesPath": "C:\\Users\\marcu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcu\\Desktop\\Ngee Ann Poly\\Semester 2\\PRG 2\\PRG_2_Assignment\\github\\HnaingHtetKyaw\\S10274663K_PRG2Assignment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kyle2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
