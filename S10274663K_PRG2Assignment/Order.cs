@@ -85,8 +85,25 @@ namespace S10274663K_PRG2Assignment
         {
             orderStatus = status;
         }
-
-
+        // Marcus added line 89 to line 106
+        public List<OrderedFoodItem> OrderedItems 
+        { 
+            get { return orderedItems; } 
+        }
+        public string DeliveryAddress 
+        { 
+            get { return deliveryAddress; }
+            set { deliveryAddress = value; } 
+        }
+        public DateTime DeliveryDateTime 
+        { 
+            get { return deliveryDateTime; } 
+            set { deliveryDateTime = value; } 
+        }
+        public string PaymentMethod 
+        { 
+            get { return paymentMethod; } 
+        }
 
         public override string ToString()
         {
