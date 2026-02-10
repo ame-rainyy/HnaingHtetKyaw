@@ -159,7 +159,7 @@ namespace S10274663K_PRG2Assignment
 
                     customer.AddOrder(order);
 
-                    restaurant.AddOrderToQueue(order);
+                    restaurant.OrderQueue.Enqueue(order);
                 }
             }
         }
@@ -266,6 +266,7 @@ namespace S10274663K_PRG2Assignment
             }
 
             TimeSpan deliveryTime;
+            DateTime deliveryDateTime;
             while (true)
             {
                 Console.Write("Enter Delivery Time (hh:mm): ");
@@ -273,7 +274,7 @@ namespace S10274663K_PRG2Assignment
 
                 if (TimeSpan.TryParseExact(timeInput, "hh\\:mm", null, out deliveryTime))
                 {
-                    DateTime deliveryDateTime = deliveryDate.Add(deliveryTime);
+                    deliveryDateTime = deliveryDate.Add(deliveryTime);
                     if (deliveryDateTime > DateTime.Now)
                     {
                         break;
@@ -440,7 +441,7 @@ namespace S10274663K_PRG2Assignment
                 }
             }
 
-            DateTime deliveryDateTime = deliveryDate.Add(deliveryTime);
+            deliveryDateTime = deliveryDate.Add(deliveryTime);
             Order newOrder = new Order(newOrderID, customer, deliveryDateTime, deliveryAddress);
 
             for (int i = 0; i < selectedFoodItems.Count; i++)
