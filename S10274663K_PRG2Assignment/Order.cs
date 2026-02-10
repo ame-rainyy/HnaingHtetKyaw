@@ -7,93 +7,109 @@
 using S10274663K_PRG2Assignment;
 using System;
 using System.Collections.Generic;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq;
 using System.Text;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading.Tasks;
 
 namespace S10274663K_PRG2Assignment
 {
     public class Order
     {
+
         // Attributes
+
         private int orderId;
         private DateTime orderDateTime;
         private DateTime deliveryDateTime;
         private string deliveryAddress;
         private string orderStatus;
         private string paymentMethod;
+        private bool orderPaid;
+
+        private double orderTotal;
+
+
         private List<OrderedFoodItem> orderedItems;
-        private Customer customer;
-        private Restaurant restaurant;
-        private int newOrderID;
-        private double amount;
-        // Constructor
-        public Order(int orderId, Customer customer, Restaurant restaurant, DateTime deliveryDateTime, double amount, string status)
+
+
+        public Customer Customer { get; private set; }
+        public Restaurant Restaurant { get; private set; }
+
+
+        // Constructor 
+
+        public Order(int orderId,
+                     Customer customer,
+                     Restaurant restaurant,
+                     DateTime deliveryDateTime,
+                     double orderTotal,
+                     string status)
         {
             this.orderId = orderId;
-            this.customer = customer;
+            Customer = customer;
+            Restaurant = restaurant;
             this.deliveryDateTime = deliveryDateTime;
-            this.deliveryAddress = deliveryAddress;
-            this.restaurant = restaurant;
-            this.orderStatus = status;
-            this.amount = amount;
+            this.orderTotal = orderTotal;
+            orderStatus = status;
 
             orderDateTime = DateTime.Now;
+            deliveryAddress = "";
             paymentMethod = "";
+            orderPaid = false;
+
             orderedItems = new List<OrderedFoodItem>();
         }
+
         public Order(int orderId, Customer customer, DateTime deliveryDateTime, string deliveryAddress)
         {
             this.orderId = orderId;
-            this.customer = customer;
+            Customer = customer;
+            Restaurant = null;
             this.deliveryDateTime = deliveryDateTime;
             this.deliveryAddress = deliveryAddress;
-            this.restaurant = null;
 
             orderDateTime = DateTime.Now;
             orderStatus = "Pending";
             paymentMethod = "";
+            orderPaid = false;
+            orderTotal = 0;
+
             orderedItems = new List<OrderedFoodItem>();
         }
 
-     
-        // Methods
+
+
+        public void AddOrderedFoodItem(OrderedFoodItem item)
+        {
+            orderedItems.Add(item);
+        }
+
         public void AddItem(OrderedFoodItem item)
         {
             orderedItems.Add(item);
         }
 
-        public void RemoveItem(OrderedFoodItem item)
+        public bool RemoveOrderedFoodItem(OrderedFoodItem item)
         {
-            orderedItems.Remove(item);
+            return orderedItems.Remove(item);
         }
+
         public double CalculateTotal()
         {
             double total = 0;
-
             foreach (OrderedFoodItem item in orderedItems)
             {
                 total += item.GetSubTotal();
             }
-
             return total;
         }
 
-        public int OrderId
+        public void SetRestaurant(Restaurant restaurant)
         {
-            get { return orderId; }
+            this.Restaurant = restaurant;
         }
 
-        public string Status
-        {
-            get { return orderStatus; }
-        }
-        public Restaurant Restaurant { get; set; }
-        public Customer Customer { get; set; }
+
         public void SetPaymentMethod(string method)
         {
             paymentMethod = method;
@@ -103,43 +119,63 @@ namespace S10274663K_PRG2Assignment
         {
             orderStatus = status;
         }
-        // Marcus added line 89 to line 106
-        public List<OrderedFoodItem> OrderedItems 
-        { 
-            get { return orderedItems; } 
+
+
+        // Properties
+
+        public int OrderId
+        {
+            get { return orderId; }
         }
-        public string DeliveryAddress 
-        { 
+
+        public DateTime DeliveryDateTime
+        {
+            get { return deliveryDateTime; }
+            set { deliveryDateTime = value; }
+        }
+
+        public string DeliveryAddress
+        {
             get { return deliveryAddress; }
-            set { deliveryAddress = value; } 
+            set { deliveryAddress = value; }
         }
-        public DateTime DeliveryDateTime 
-        { 
-            get { return deliveryDateTime; } 
-            set { deliveryDateTime = value; } 
+
+        public string Status
+        {
+            get { return orderStatus; }
         }
-        public string PaymentMethod 
-        { 
-            get { return paymentMethod; } 
+
+        public string PaymentMethod
+        {
+            get { return paymentMethod; }
         }
+
+        public bool OrderPaid
+        {
+            get { return orderPaid; }
+            set { orderPaid = value; }
+        }
+
+
+        public double TotalAmount
+        {
+            get { return orderTotal; }
+        }
+
+        public List<OrderedFoodItem> OrderedItems
+        {
+            get { return orderedItems; }
+        }
+
 
         public override string ToString()
         {
-            string output = $"Order ID: {orderId}\n";
-            output += $"Order Date/Time: {orderDateTime}\n";
-            output += $"Delivery Date/Time: {deliveryDateTime}\n";
-            output += $"Delivery Address: {deliveryAddress}\n";
-            output += $"Status: {orderStatus}\n";
-            output += "Items:\n";
-
-            foreach (OrderedFoodItem item in orderedItems)
-            {
-                output += "- " + item + "\n";
-            }
-
-            output += $"Total Amount: ${CalculateTotal():0.00}";
-
-            return output;
+            return $"Order ID: {orderId}\n" +
+                   $"Customer: {Customer.CustomerName}\n" +
+                   $"Restaurant: {Restaurant.RestaurantName}\n" +
+                   $"Delivery Date/Time: {deliveryDateTime}\n" +
+                   $"Status: {orderStatus}\n" +
+                   $"Total Amount: ${orderTotal:F2}";
         }
     }
 }

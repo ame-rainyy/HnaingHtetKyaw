@@ -12,3 +12,18 @@ C:\Users\kyle2\Downloads\PROGRAMMING\S10274663K_PRG2Assignment\S10274663K_PRG2As
 C:\Users\kyle2\Downloads\PROGRAMMING\S10274663K_PRG2Assignment\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.pdb
 C:\Users\kyle2\Downloads\PROGRAMMING\S10274663K_PRG2Assignment\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.genruntimeconfig.cache
 C:\Users\kyle2\Downloads\PROGRAMMING\S10274663K_PRG2Assignment\S10274663K_PRG2Assignment\obj\Debug\net8.0\ref\S10274663K_PRG2Assignment.dll
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\bin\Debug\net8.0\S10274663K_PRG2Assignment.exe
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\bin\Debug\net8.0\S10274663K_PRG2Assignment.deps.json
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\bin\Debug\net8.0\S10274663K_PRG2Assignment.runtimeconfig.json
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\bin\Debug\net8.0\S10274663K_PRG2Assignment.dll
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\bin\Debug\net8.0\S10274663K_PRG2Assignment.pdb
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.AssemblyInfoInputs.cache
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.AssemblyInfo.cs
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.csproj.CoreCompileInputs.cache
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.sourcelink.json
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.dll
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\refint\S10274663K_PRG2Assignment.dll
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.pdb
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\S10274663K_PRG2Assignment.genruntimeconfig.cache
+C:\Users\marcu\Desktop\Ngee Ann Poly\Semester 2\PRG 2\PRG_2_Assignment\github\HnaingHtetKyaw\S10274663K_PRG2Assignment\obj\Debug\net8.0\ref\S10274663K_PRG2Assignment.dll
