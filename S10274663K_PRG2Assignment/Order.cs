@@ -29,9 +29,10 @@ namespace S10274663K_PRG2Assignment
         private List<OrderedFoodItem> orderedItems;
         private Customer customer;
         private Restaurant restaurant;
-
+        private int newOrderID;
+        private double amount;
         // Constructor
-        public Order(int orderId, Customer customer, Restaurant restaurant, DateTime deliveryDateTime, double amount, string deliveryAddress, string status)
+        public Order(int orderId, Customer customer, Restaurant restaurant, DateTime deliveryDateTime, double amount, string status)
         {
             this.orderId = orderId;
             this.customer = customer;
@@ -39,12 +40,13 @@ namespace S10274663K_PRG2Assignment
             this.deliveryAddress = deliveryAddress;
             this.restaurant = restaurant;
             this.orderStatus = status;
+            this.amount = amount;
 
             orderDateTime = DateTime.Now;
             paymentMethod = "";
             orderedItems = new List<OrderedFoodItem>();
         }
-        public Order(int orderId, Customer customer, DateTime deliveryDateTime, string deliveryAddress, string status)
+        public Order(int orderId, Customer customer, DateTime deliveryDateTime, string deliveryAddress)
         {
             this.orderId = orderId;
             this.customer = customer;
@@ -58,7 +60,7 @@ namespace S10274663K_PRG2Assignment
             orderedItems = new List<OrderedFoodItem>();
         }
 
-
+     
         // Methods
         public void AddItem(OrderedFoodItem item)
         {
