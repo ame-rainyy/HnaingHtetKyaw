@@ -856,6 +856,65 @@ namespace S10274663K_PRG2Assignment
                 Console.WriteLine($"Warning: Could not update orders file - {ex.Message}");
             }
         }
+        // Advanced feature (b)
+        static void DisplayTotalOrderAmount()
+        {
+            Console.WriteLine("\nTotal Order Amount Report");
+            Console.WriteLine("=========================\n");
 
+            double grandTotalOrders = 0;
+            double grandTotalRefunds = 0;
+            double deliveryFee = 5.00;
+            double gruberooCommission = 0.30;
+
+            foreach (Restaurant restaurant in restaurantList)
+            {
+                Console.WriteLine($"Restaurant: {restaurant.RestaurantName} ({restaurant.RestaurantId})");
+                Console.WriteLine(new string('-', 60));
+
+                double restaurantTotalOrders = 0;
+                double restaurantTotalRefunds = 0;
+                int deliveredCount = 0;
+                int refundedCount = 0;
+
+                foreach (Order order in restaurant.OrderQueue)
+                {
+                    if (order.Status == "Delivered")
+                    {
+                        double orderSubtotal = order.CalculateTotal();
+                        restaurantTotalOrders += orderSubtotal;
+                        deliveredCount++;
+                    }
+                    else if (order.Status == "Rejected" || order.Status == "Cancelled")
+                    {
+                        double refundAmount = order.CalculateTotal() + deliveryFee;
+                        restaurantTotalRefunds += refundAmount;
+                        refundedCount++;
+                    }
+                }
+
+                Console.WriteLine($"Successful Orders (Delivered): {deliveredCount}");
+                Console.WriteLine($"Total Order Amount: ${restaurantTotalOrders:F2}");
+                Console.WriteLine($"Refunded Orders (Rejected/Cancelled): {refundedCount}");
+                Console.WriteLine($"Total Refunds: ${restaurantTotalRefunds:F2}");
+                Console.WriteLine();
+
+                grandTotalOrders += restaurantTotalOrders;
+                grandTotalRefunds += restaurantTotalRefunds;
+            }
+
+            Console.WriteLine(new string('=', 60));
+            Console.WriteLine("OVERALL SUMMARY");
+            Console.WriteLine(new string('=', 60));
+            Console.WriteLine($"Total Order Amount (All Restaurants): ${grandTotalOrders:F2}");
+            Console.WriteLine($"Total Refunds (All Restaurants): ${grandTotalRefunds:F2}");
+
+            double gruberooEarnings = grandTotalOrders * gruberooCommission;
+            Console.WriteLine($"Gruberoo Commission (30%): ${gruberooEarnings:F2}");
+
+            double finalAmount = gruberooEarnings - grandTotalRefunds;
+            Console.WriteLine($"Final Amount Gruberoo Earns: ${finalAmount:F2}");
+            Console.WriteLine(new string('=', 60));
+        }
     }
 }
