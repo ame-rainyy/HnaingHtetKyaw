@@ -10,13 +10,15 @@ namespace S10274663K_PRG2Assignment
 {
     class Program
     {
-        // Basic feature 1
+        // Basic feature 1 and 2
         static List<Restaurant> restaurantsList = new List<Restaurant>();
 
         static void Main(string[] args)
         {
             LoadRestaurants("restaurants.csv");
             LoadFoodItems("fooditems - Copy.csv");
+            LoadCustomers("customers.csv");
+            LoadOrders("orders.csv");
 
             Console.WriteLine($"{restaurantsList.Count} restaurants loaded!");
 
@@ -29,6 +31,8 @@ namespace S10274663K_PRG2Assignment
                 }
             }
             Console.WriteLine($"{foodCount} food items loaded!\n");
+            Console.WriteLine($"{customersList.Count} customers loaded!");
+            Console.WriteLine($"{orders.Count} orders loaded!\n");
 
             // Display restaurants and their menus
             foreach (Restaurant r in restaurantsList)
@@ -88,32 +92,7 @@ namespace S10274663K_PRG2Assignment
         // Basic feature 2
         static List<Customer> customersList = new List<Customer>();
         static List<Order> orders = new List<Order>();
-        static void Main(string[] args)
-        {
-            LoadRestaurants("restaurants.csv");
-            LoadFoodItems("fooditems - Copy.csv");
-            LoadCustomers("customers.csv");
-            LoadOrders("orders.csv");
-
-            Console.WriteLine($"{restaurantsList.Count} restaurants loaded!");
-
-            int foodCount = 0;
-            foreach (Restaurant r in restaurantsList)
-            {
-                foreach (Menu m in r.Menus)
-                {
-                    foodCount += m.FoodItems.Count;
-                }
-            }
-            Console.WriteLine($"{foodCount} food items loaded!");
-            Console.WriteLine($"{customersList.Count} customers loaded!");
-            Console.WriteLine($"{orders.Count} orders loaded!\n");
-
-            foreach (Restaurant r in restaurantsList)
-            {
-                r.DisplayMenu();
-            }
-        }
+        
         static void LoadCustomers(string fileName)
         {
             string[] lines = File.ReadAllLines(fileName);
