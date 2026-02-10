@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Hnaing did basic feature 1, 4, 6, 8, and advanced feature (a)
+// Marcus did basic feature 2, 3, 5, 7, and advanced feature (b)
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -9,17 +11,17 @@ namespace S10274663K_PRG2Assignment
     class Program
     {
         // Basic feature 1
-        static List<Restaurant> restaurants = new List<Restaurant>();
+        static List<Restaurant> restaurantsList = new List<Restaurant>();
 
         static void Main(string[] args)
         {
             LoadRestaurants("restaurants.csv");
             LoadFoodItems("fooditems - Copy.csv");
 
-            Console.WriteLine($"{restaurants.Count} restaurants loaded!");
+            Console.WriteLine($"{restaurantsList.Count} restaurants loaded!");
 
             int foodCount = 0;
-            foreach (Restaurant r in restaurants)
+            foreach (Restaurant r in restaurantsList)
             {
                 foreach (Menu m in r.Menus)
                 {
@@ -29,7 +31,7 @@ namespace S10274663K_PRG2Assignment
             Console.WriteLine($"{foodCount} food items loaded!\n");
 
             // Display restaurants and their menus
-            foreach (Restaurant r in restaurants)
+            foreach (Restaurant r in restaurantsList)
             {
                 r.DisplayMenu();
             }
@@ -54,7 +56,7 @@ namespace S10274663K_PRG2Assignment
                 Menu menu = new Menu("M001", "Main Menu");
                 restaurant.AddMenu(menu);
 
-                restaurants.Add(restaurant);
+                restaurantsList.Add(restaurant);
             }
         }
 
@@ -75,7 +77,7 @@ namespace S10274663K_PRG2Assignment
                     new FoodItem(itemName, itemDesc, itemPrice);
 
                 Restaurant restaurant =
-                    restaurants.Find(r => r.RestaurantId == restaurantId);
+                    restaurantsList.Find(r => r.RestaurantId == restaurantId);
 
                 if (restaurant != null)
                 {
@@ -84,19 +86,19 @@ namespace S10274663K_PRG2Assignment
             }
         }
         // Basic feature 2
-        static List<Customer> customers = new List<Customer>();
+        static List<Customer> customersList = new List<Customer>();
         static List<Order> orders = new List<Order>();
         static void Main(string[] args)
         {
             LoadRestaurants("restaurants.csv");
-            LoadFoodItems("fooditems.csv");
+            LoadFoodItems("fooditems - Copy.csv");
             LoadCustomers("customers.csv");
             LoadOrders("orders.csv");
 
-            Console.WriteLine($"{restaurants.Count} restaurants loaded!");
+            Console.WriteLine($"{restaurantsList.Count} restaurants loaded!");
 
             int foodCount = 0;
-            foreach (Restaurant r in restaurants)
+            foreach (Restaurant r in restaurantsList)
             {
                 foreach (Menu m in r.Menus)
                 {
@@ -104,10 +106,10 @@ namespace S10274663K_PRG2Assignment
                 }
             }
             Console.WriteLine($"{foodCount} food items loaded!");
-            Console.WriteLine($"{customers.Count} customers loaded!");
+            Console.WriteLine($"{customersList.Count} customers loaded!");
             Console.WriteLine($"{orders.Count} orders loaded!\n");
 
-            foreach (Restaurant r in restaurants)
+            foreach (Restaurant r in restaurantsList)
             {
                 r.DisplayMenu();
             }
@@ -124,7 +126,7 @@ namespace S10274663K_PRG2Assignment
                 string email = data[1];
 
                 Customer customer = new Customer(name, email);
-                customers.Add(customer);
+                customersList.Add(customer);
             }
         }
         static void LoadOrders(string fileName)
@@ -143,10 +145,10 @@ namespace S10274663K_PRG2Assignment
                 string status = data[5];
 
                 Customer customer =
-                    customers.Find(c => c.EmailAddress == customerEmail);
+                    customersList.Find(c => c.EmailAddress == customerEmail);
 
                 Restaurant restaurant =
-                    restaurants.Find(r => r.RestaurantId == restaurantId);
+                    restaurantsList.Find(r => r.RestaurantId == restaurantId);
 
                 if (customer != null && restaurant != null)
                 {
@@ -193,7 +195,7 @@ namespace S10274663K_PRG2Assignment
             string customerEmail = Console.ReadLine();
 
             Customer customer = null;
-            foreach (Customer c in customerList)
+            foreach (Customer c in customersList)
             {
                 if (c.EmailAddress.ToLower() == customerEmail.ToLower())
                 {
@@ -212,7 +214,7 @@ namespace S10274663K_PRG2Assignment
             string restaurantID = Console.ReadLine().ToUpper();
 
             Restaurant restaurant = null;
-            foreach (Restaurant r in restaurantList)
+            foreach (Restaurant r in restaurantsList)
             {
                 if (r.RestaurantId == restaurantID)
                 {
@@ -427,7 +429,7 @@ namespace S10274663K_PRG2Assignment
             }
 
             int newOrderID = 1000;
-            foreach (Customer c in customerList)
+            foreach (Customer c in customersList)
             {
                 foreach (Order o in c.OrderList)
                 {
@@ -492,7 +494,7 @@ namespace S10274663K_PRG2Assignment
             string customerEmail = Console.ReadLine();
 
             Customer customer = null;
-            foreach (Customer c in customerList)
+            foreach (Customer c in customersList)
             {
                 if (c.EmailAddress.ToLower() == customerEmail.ToLower())
                 {
@@ -560,7 +562,7 @@ namespace S10274663K_PRG2Assignment
             }
 
             Restaurant orderRestaurant = null;
-            foreach (Restaurant r in restaurantList)
+            foreach (Restaurant r in restaurantsList)
             {
                 foreach (Order o in r.OrderQueue)
                 {
@@ -809,12 +811,12 @@ namespace S10274663K_PRG2Assignment
                 {
                     double deliveryFee = 5.00;
 
-                    foreach (Customer customer in customerList)
+                    foreach (Customer customer in customersList)
                     {
                         foreach (Order order in customer.OrderList)
                         {
                             string restaurantID = "";
-                            foreach (Restaurant r in restaurantList)
+                            foreach (Restaurant r in restaurantsList)
                             {
                                 foreach (Order o in r.OrderQueue)
                                 {
@@ -854,7 +856,7 @@ namespace S10274663K_PRG2Assignment
             double deliveryFee = 5.00;
             double gruberooCommission = 0.30;
 
-            foreach (Restaurant restaurant in restaurantList)
+            foreach (Restaurant restaurant in restaurantsList)
             {
                 Console.WriteLine($"Restaurant: {restaurant.RestaurantName} ({restaurant.RestaurantId})");
                 Console.WriteLine(new string('-', 60));
