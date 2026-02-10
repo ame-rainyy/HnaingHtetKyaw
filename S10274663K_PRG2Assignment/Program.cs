@@ -8,6 +8,7 @@ namespace S10274663K_PRG2Assignment
 {
     class Program
     {
+        // Basic feature 1
         static List<Restaurant> restaurants = new List<Restaurant>();
 
         static void Main(string[] args)
@@ -82,6 +83,7 @@ namespace S10274663K_PRG2Assignment
                 }
             }
         }
+        // Basic feature 2
         static List<Customer> customers = new List<Customer>();
         static List<Order> orders = new List<Order>();
         static void Main(string[] args)
@@ -151,17 +153,15 @@ namespace S10274663K_PRG2Assignment
                     Order order = new Order(orderId, customer, restaurant,
                                             deliveryDateTime, totalAmount, status);
 
-                    // add to system list
                     orders.Add(order);
 
-                    // add to customer's order list
                     customer.AddOrder(order);
 
-                    // add to restaurant's order queue
                     restaurant.AddOrderToQueue(order);
                 }
             }
         }
+        // Basic feature 3
         static void ListRestaurants(List<Restaurant> restaurants)
         {
             Console.WriteLine("All Restaurants and Menu Items");
@@ -467,7 +467,6 @@ namespace S10274663K_PRG2Assignment
             {
                 using (StreamWriter sw = new StreamWriter("orders.csv", true))
                 {
-                    // Calculate total including delivery fee
                     double orderTotal = newOrder.CalculateTotal() + deliveryFee;
 
                     string line = $"{newOrder.OrderId},{customer.EmailAddress},{restaurant.RestaurantId}," +
@@ -576,13 +575,6 @@ namespace S10274663K_PRG2Assignment
             }
 
             Console.WriteLine("\nOrder Items:");
-            // Note: You'll need to add a public property or method to access orderedItems
-            // For now, using ToString() output or add a GetOrderedItems() method
-            // Assuming you add: public List<OrderedFoodItem> OrderedItems { get { return orderedItems; } }
-            // to your Order class
-
-            // IMPORTANT: Add this property to your Order.cs class:
-            // public List<OrderedFoodItem> OrderedItems { get { return orderedItems; } }
 
             int itemNum = 1;
             foreach (OrderedFoodItem item in selectedOrder.OrderedItems)
@@ -590,11 +582,6 @@ namespace S10274663K_PRG2Assignment
                 Console.WriteLine($"{itemNum}. {item}");
                 itemNum++;
             }
-
-            // Display delivery address
-            // IMPORTANT: Add these properties to your Order.cs class:
-            // public string DeliveryAddress { get { return deliveryAddress; } set { deliveryAddress = value; } }
-            // public DateTime DeliveryDateTime { get { return deliveryDateTime; } set { deliveryDateTime = value; } }
 
             Console.WriteLine("\nAddress:");
             Console.WriteLine(selectedOrder.DeliveryAddress);
