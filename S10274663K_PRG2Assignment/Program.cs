@@ -82,6 +82,86 @@ namespace S10274663K_PRG2Assignment
                 }
             }
         }
+        static List<Customer> customers = new List<Customer>();
+        static List<Order> orders = new List<Order>();
+        static void Main(string[] args)
+        {
+            LoadRestaurants("restaurants.csv");
+            LoadFoodItems("fooditems.csv");
+            LoadCustomers("customers.csv");
+            LoadOrders("orders.csv");
+
+            Console.WriteLine($"{restaurants.Count} restaurants loaded!");
+
+            int foodCount = 0;
+            foreach (Restaurant r in restaurants)
+            {
+                foreach (Menu m in r.Menus)
+                {
+                    foodCount += m.FoodItems.Count;
+                }
+            }
+            Console.WriteLine($"{foodCount} food items loaded!");
+            Console.WriteLine($"{customers.Count} customers loaded!");
+            Console.WriteLine($"{orders.Count} orders loaded!\n");
+
+            foreach (Restaurant r in restaurants)
+            {
+                r.DisplayMenu();
+            }
+        }
+        static void LoadCustomers(string fileName)
+        {
+            string[] lines = File.ReadAllLines(fileName);
+
+            for (int i = 1; i < lines.Length; i++) // skip header
+            {
+                string[] data = lines[i].Split(',');
+
+                string name = data[0];
+                string email = data[1];
+
+                Customer customer = new Customer(name, email);
+                customers.Add(customer);
+            }
+        }
+        static void LoadOrders(string fileName)
+        {
+            string[] lines = File.ReadAllLines(fileName);
+
+            for (int i = 1; i < lines.Length; i++) // skip header
+            {
+                string[] data = lines[i].Split(',');
+
+                int orderId = Convert.ToInt32(data[0]);
+                string customerEmail = data[1];
+                string restaurantId = data[2];
+                DateTime deliveryDateTime = Convert.ToDateTime(data[3]);
+                double totalAmount = Convert.ToDouble(data[4]);
+                string status = data[5];
+
+                Customer customer =
+                    customers.Find(c => c.EmailAddress == customerEmail);
+
+                Restaurant restaurant =
+                    restaurants.Find(r => r.RestaurantId == restaurantId);
+
+                if (customer != null && restaurant != null)
+                {
+                    Order order = new Order(orderId, customer, restaurant,
+                                            deliveryDateTime, totalAmount, status);
+
+                    // add to system list
+                    orders.Add(order);
+
+                    // add to customer's order list
+                    customer.AddOrder(order);
+
+                    // add to restaurant's order queue
+                    restaurant.AddOrderToQueue(order);
+                }
+            }
+        }
         static void ListRestaurants(List<Restaurant> restaurants)
         {
             Console.WriteLine("All Restaurants and Menu Items");
